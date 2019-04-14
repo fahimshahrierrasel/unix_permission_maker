@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unix Permission</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div id="root">
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Unix Permission Maker</h1>
+                <div class="columns is-multiline is-centered">
+                    <permissions name="User"></permissions>
+                    <permissions name="Group"></permissions>
+                    <permissions name="Others"></permissions>
+                    <file-type selected="file"></file-type>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Operating Systems</h1>
+                <command title="Linux Distros" icon="fab fa-linux"></command>
+                <command title="macOS" icon="fab fa-apple"></command>
+            </div>
+        </section>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+
+</html>
